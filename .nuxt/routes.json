@@ -1,0 +1,198 @@
+[
+  {
+    "name": "admin___en",
+    "path": "/admin",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/admin/index.vue",
+    "chunkName": "pages/admin/index",
+    "_name": "_38229b14"
+  },
+  {
+    "name": "admin1___en",
+    "path": "/admin1",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/admin1.vue",
+    "chunkName": "pages/admin1",
+    "_name": "_5acb26b0"
+  },
+  {
+    "name": "index___ar",
+    "path": "/ar",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_c01c7d58"
+  },
+  {
+    "name": "driver___en",
+    "path": "/driver",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/driver/index.vue",
+    "chunkName": "pages/driver/index",
+    "_name": "_22241319"
+  },
+  {
+    "name": "google___en",
+    "path": "/google",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/google.vue",
+    "chunkName": "pages/google",
+    "_name": "_4e44eab2"
+  },
+  {
+    "name": "icons___en",
+    "path": "/icons",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/icons.vue",
+    "chunkName": "pages/icons",
+    "_name": "_7e3e879c"
+  },
+  {
+    "name": "notifications___en",
+    "path": "/notifications",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/notifications.vue",
+    "chunkName": "pages/notifications",
+    "_name": "_5b06af2c"
+  },
+  {
+    "name": "regular___en",
+    "path": "/regular",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/regular.vue",
+    "chunkName": "pages/regular",
+    "_name": "_26c0309e"
+  },
+  {
+    "name": "reviewer___en",
+    "path": "/reviewer",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/reviewer/index.vue",
+    "chunkName": "pages/reviewer/index",
+    "_name": "_39b80994"
+  },
+  {
+    "name": "rtl___en",
+    "path": "/rtl",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/rtl.vue",
+    "chunkName": "pages/rtl",
+    "_name": "_4a34796c"
+  },
+  {
+    "name": "starter-page___en",
+    "path": "/starter-page",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/starter-page.vue",
+    "chunkName": "pages/starter-page",
+    "_name": "_ea57620a"
+  },
+  {
+    "name": "typography___en",
+    "path": "/typography",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/typography.vue",
+    "chunkName": "pages/typography",
+    "_name": "_5df51b9d"
+  },
+  {
+    "name": "user___en",
+    "path": "/user",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/user.vue",
+    "chunkName": "pages/user",
+    "_name": "_1278c68e"
+  },
+  {
+    "name": "admin___ar",
+    "path": "/ar/admin",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/admin/index.vue",
+    "chunkName": "pages/admin/index",
+    "_name": "_38229b14"
+  },
+  {
+    "name": "admin1___ar",
+    "path": "/ar/admin1",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/admin1.vue",
+    "chunkName": "pages/admin1",
+    "_name": "_5acb26b0"
+  },
+  {
+    "name": "driver___ar",
+    "path": "/ar/driver",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/driver/index.vue",
+    "chunkName": "pages/driver/index",
+    "_name": "_22241319"
+  },
+  {
+    "name": "google___ar",
+    "path": "/ar/google",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/google.vue",
+    "chunkName": "pages/google",
+    "_name": "_4e44eab2"
+  },
+  {
+    "name": "icons___ar",
+    "path": "/ar/icons",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/icons.vue",
+    "chunkName": "pages/icons",
+    "_name": "_7e3e879c"
+  },
+  {
+    "name": "notifications___ar",
+    "path": "/ar/notifications",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/notifications.vue",
+    "chunkName": "pages/notifications",
+    "_name": "_5b06af2c"
+  },
+  {
+    "name": "regular___ar",
+    "path": "/ar/regular",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/regular.vue",
+    "chunkName": "pages/regular",
+    "_name": "_26c0309e"
+  },
+  {
+    "name": "reviewer___ar",
+    "path": "/ar/reviewer",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/reviewer/index.vue",
+    "chunkName": "pages/reviewer/index",
+    "_name": "_39b80994"
+  },
+  {
+    "name": "rtl___ar",
+    "path": "/ar/rtl",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/rtl.vue",
+    "chunkName": "pages/rtl",
+    "_name": "_4a34796c"
+  },
+  {
+    "name": "starter-page___ar",
+    "path": "/ar/starter-page",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/starter-page.vue",
+    "chunkName": "pages/starter-page",
+    "_name": "_ea57620a"
+  },
+  {
+    "name": "typography___ar",
+    "path": "/ar/typography",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/typography.vue",
+    "chunkName": "pages/typography",
+    "_name": "_5df51b9d"
+  },
+  {
+    "name": "user___ar",
+    "path": "/ar/user",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/user.vue",
+    "chunkName": "pages/user",
+    "_name": "_1278c68e"
+  },
+  {
+    "name": "GeneralViews-NotFoundPage___en",
+    "path": "/GeneralViews/NotFoundPage",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/GeneralViews/NotFoundPage.vue",
+    "chunkName": "pages/GeneralViews/NotFoundPage",
+    "_name": "_243834ae"
+  },
+  {
+    "name": "GeneralViews-NotFoundPage___ar",
+    "path": "/ar/GeneralViews/NotFoundPage",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/GeneralViews/NotFoundPage.vue",
+    "chunkName": "pages/GeneralViews/NotFoundPage",
+    "_name": "_243834ae"
+  },
+  {
+    "name": "index___en",
+    "path": "/",
+    "component": "/Users/temirlanprimtayev/Documents/hack/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_c01c7d58"
+  }
+]
