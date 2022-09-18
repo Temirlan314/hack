@@ -70,6 +70,9 @@ export default {
     'nuxt-i18n',
     '@nuxtjs/axios'
   ],
+  axios: {
+
+  },
   i18n: {
     locales: [
       {

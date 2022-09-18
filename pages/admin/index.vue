@@ -12,6 +12,17 @@ export default {
     Modal,
     Status,
   },
+  async mounted(){
+    await this.$store.dispatch("manager/get_routes", 1)
+    // fetch(`http://localhost:8081/manager/user/1`, {
+    //   method: 'get'
+    // }).then((data) => console.log(data));
+    const response = await this.$axios.get(`http://localhost:8081/manager/user/1`)
+    console.log(response.data)
+    this.list = response.data
+  },
+
+
   head() {
     return {
       title: `${this.title}`,
@@ -111,6 +122,9 @@ export default {
       if (data) {
         return formatDate(data);
       }
+    },
+    async getDetail(id){
+
     },
   },
 };
@@ -306,7 +320,7 @@ export default {
           <p>Проход медосведетельства *</p>
         </div>
         <div class="col-12 mb-2">
-          <input :id="cbId" type="checkbox" v-model="selectedTask.done" disabled/>
+          <input  type="checkbox" v-model="selectedTask.done" disabled/>
         </div>
         <div class="col-12 mb-2">
           <p>Прием локомотива *</p>

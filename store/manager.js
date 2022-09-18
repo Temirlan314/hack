@@ -48,21 +48,16 @@ export const mutations = {
 }
 
 export const actions = {
-    async get_Limits({ commit }, params) {
+    async get_routes({ commit }, id) {
         try {
             commit('SET_ERROR', null)
-            const response = await this.$repositories.creditCheck.getLimits(params);
-            console.log(response, "LIMITS REP");
+            const response = await this.$repositories.manager.getRoutes(id);
+            console.log(response, "ROUTES");
             commit('SET_LIMITS', response.data)
             return response.data
         } catch (error) {
             const handledError = handleError(error)
             commit('SET_ERROR', handledError)
-            this.$notify({
-                title: "Failure",
-                content: "Company limits could not be loaded",
-                variant: "info"
-            })
         }
     },
     async get_jobs({ commit }, params) {

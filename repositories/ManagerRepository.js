@@ -7,7 +7,7 @@ export default ($axios) => ({
     },
 
     getRoutes(id){
-        return $axios.get(`localhost:8881/user/${id}`)
+        return $axios.get(`localhost:3306/manager/user/${id}`)
     },
 
     // clientAll(client, params) {
