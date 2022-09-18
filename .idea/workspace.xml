@@ -1,0 +1,1474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d9699ada-68a0-482a-94cf-8cf41cf87c77" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/icons/icon_120x120.2b233c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/icons/icon_144x144.2b233c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/icons/icon_152x152.2b233c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/icons/icon_192x192.2b233c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/icons/icon_384x384.2b233c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/icons/icon_512x512.2b233c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/icons/icon_64x64.2b233c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/icons/splash_ipad_1536x2048.2b233c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/icons/splash_ipadpro10_1668x2224.2b233c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/icons/splash_ipadpro12_2048x2732.2b233c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/icons/splash_ipadpro9_1536x2048.2b233c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/icons/splash_iphone6_50x1334.2b233c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/icons/splash_iphoneplus_1080x1920.2b233c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/icons/splash_iphonese_640x1136.2b233c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/icons/splash_iphonex_1125x2436.2b233c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/icons/splash_iphonexr_828x1792.2b233c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/icons/splash_iphonexsmax_1242x2688.2b233c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/dist/client/manifest.23098305.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/routes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/dashboard/custom/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/dashboard/custom/_input-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-compilation-targets/.README 2.md.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-compilation-targets/lib/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-define-polyfill-provider/.README 2.md.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-define-polyfill-provider/lib/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helpers/.README 3.md.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helpers/scripts/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/preset-env/.CONTRIBUTING.md.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/preset-env/.README 3.md.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/preset-env/.yarn-error.log.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/.README 3.md.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/scripts/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/.README 3.md.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/scripts/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@intlify/shared/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@intlify/shared/index 2.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@nuxt/vue-app/template/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@nuxt/vue-app/template/layouts/default.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@xtuc/long/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn/bin/acorn 2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn/bin/acorn 3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/formatMaximum 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/formatMinimum 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/formatMinimum 3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv-keywords/keywords/oneRequired 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/.tonic_example 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/scripts/..eslintrc 2.yml.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/scripts/.eslintrc.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/scripts/.info 2.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ajv/scripts/.prepare-tests 2.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/assert/node_modules/inherits/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/assert/node_modules/util/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/aws4/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-runtime/helpers/new-arrow-check.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-runtime/helpers/temporalUndefined.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-runtime/regenerator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/balanced-match/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/.package 2.json.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/dist/unpacker/browsers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._a-function 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._a-number-value 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._an-object 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._array-from-iterable 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._cof 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._core 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._defined 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._descriptors 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._entry-virtual 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._enum-bug-keys 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._fails 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._function-to-string 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._has 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._html 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._is-array 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._is-object 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._iter-step 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._iterators 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._library 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._math-log1p 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._math-sign 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._object-gops 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._object-pie 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._path 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._perform 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._property-desc 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._redefine-all 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._shared-key 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._string-ws 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._to-integer 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._to-object 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._uid 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._user-agent 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.._wks-ext 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.core.object.classof 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.core.object.define 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.core.object.is-object 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.array.is-array 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.array.species 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.date.now 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.function.bind 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.math.fround 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.math.log10 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.math.log1p 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.math.log2 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.math.sign 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.math.trunc 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.number.epsilon 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.number.is-integer 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.number.max-safe-integer 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.number.min-safe-integer 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.object.assign 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.object.create 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.object.get-own-property-names 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.object.is 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.object.set-prototype-of 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.reflect.own-keys 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.string.big 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.string.repeat 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.string.trim 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.typed.data-view 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.typed.float32-array 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.typed.int16-array 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.typed.int32-array 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.typed.int8-array 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.typed.uint16-array 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.typed.uint32-array 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.typed.uint8-array 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es6.typed.uint8-clamped-array 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es7.global 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es7.map.from 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es7.map.of 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es7.math.deg-per-rad 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es7.math.rad-per-deg 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es7.math.scale 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es7.set.from 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es7.set.of 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es7.symbol.async-iterator 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es7.symbol.observable 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es7.system.global 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es7.weak-map.from 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es7.weak-map.of 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es7.weak-set.from 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.es7.weak-set.of 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/.web.immediate 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/library/_add-to-unscopables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/library/_library.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/library/_path.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/library/_redefine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/library/_regexp-exec-abstract.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/library/_regexp-exec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/library/es6.regexp.constructor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/modules/library/es6.regexp.exec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/stage/.3 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/stage/.index 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/.crc16 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/.crc16_ccitt 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/.crc16_kermit 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/.crc16_modbus 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/.crc16_xmodem 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/.crc17_ccitt 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/.crc17_kermit 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/.crc17_modbus 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/.crc17_xmodem 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/.crc24 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/.crc32 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/.crc8 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/.crc8_1wire 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/.crc9_1wire 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/.crcjam 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/crc1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/crc16.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/crc24.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/crc32.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/crc8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/crc/lib/crcjam.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/cjs 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/cjs 3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/dist/cjs 4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-select/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-select/lib/procedure.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-tree/lib/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-tree/lib/lexer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-tree/lib/syntax/config/walker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-tree/lib/syntax/pseudo/matches.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-tree/lib/syntax/pseudo/not.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-tree/lib/syntax/pseudo/nth-child.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-tree/lib/syntax/pseudo/nth-last-child.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-tree/lib/syntax/pseudo/nth-last-of-type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-tree/lib/syntax/pseudo/nth-of-type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/css-tree/lib/syntax/scope/atrulePrelude.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-array/src/number.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-brush/src/constant 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-brush/src/event 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-brush/src/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-color/src/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-color/src/math 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-contour/src/.array 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-contour/src/.ascending 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-contour/src/.constant 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-contour/src/.index 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-contour/src/.noop 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-contour/src/array.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-dispatch/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-dispatch/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-dispatch/src/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-drag/src/constant 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-drag/src/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-ease/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-ease/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-ease/src/linear 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/ar-DZ 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/ar-EH 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/ar-LY 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/ar-MA 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/ar-TN 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/ca-ES 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/cs-CZ 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/de-CH 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/de-DE 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/en-CA 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/en-GB 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/en-IN 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/en-US 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/es-ES 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/es-MX 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/fi-FI 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/fr-CA 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/fr-FR 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/he-IL 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/hu-HU 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/it-IT 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/ja-JP 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/ko-KR 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/mk-MK 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/nl-NL 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/pl-PL 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/pt-BR 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/ru-RU 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/sv-SE 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/uk-UA 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/locale/zh-CN 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/src/exponent 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/src/formatNumerals 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/src/identity 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-format/src/precisionFixed 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-geo/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-geo/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-geo/src/constant 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-geo/src/identity 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-geo/src/noop 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-geo/src/pointEqual 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-interpolate/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-interpolate/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-interpolate/src/constant 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-interpolate/src/date 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-interpolate/src/discrete 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-interpolate/src/number 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-interpolate/src/quantize 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-interpolate/src/round 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-path/src/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-quadtree/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-quadtree/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-quadtree/src/data 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-quadtree/src/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-quadtree/src/quad 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-quadtree/src/root 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-quadtree/src/size 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-quadtree/src/x 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-quadtree/src/y 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-selection/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-selection/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-selection/src/constant 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-selection/src/create 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-selection/src/identity 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-selection/src/matcher 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-selection/src/selector 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-selection/src/selectorAll 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-selection/src/sourceEvent 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-shape/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-shape/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-shape/src/array 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-shape/src/constant 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-shape/src/descending 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-shape/src/identity 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-shape/src/noop 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-shape/src/point 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d3-shape/src/pointRadial 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/des.js/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/des.js/test/.fixtures 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-converter/lib/domToMarkup 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-serializer/.foreignNames.json.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-serializer/.index.d.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-serializer/.index.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dom-serializer/lib/esm/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/domelementtype/lib/esm/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dot-case/node_modules/lower-case/dist.es2015/index.spec.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dot-case/node_modules/lower-case/dist/index.spec.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dot-case/node_modules/no-case/dist.es2015/index.spec.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dot-case/node_modules/no-case/dist/index.spec.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/lib/theme-chalk/breadcrumb-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/lib/theme-chalk/button-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/lib/theme-chalk/checkbox-button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/lib/theme-chalk/checkbox-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/lib/theme-chalk/collapse-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/lib/theme-chalk/dropdown-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/lib/theme-chalk/dropdown-menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/lib/theme-chalk/form-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/lib/theme-chalk/infinite-scroll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/lib/theme-chalk/infiniteScroll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/lib/theme-chalk/menu-item-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/lib/theme-chalk/menu-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/lib/theme-chalk/submenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/lib/theme-chalk/tab-pane.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/message/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/lib/breadcrumb-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/lib/button-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/lib/checkbox-button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/lib/checkbox-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/lib/collapse-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/lib/dropdown-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/lib/dropdown-menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/lib/form-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/lib/infinite-scroll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/lib/infiniteScroll.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/lib/menu-item-group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/lib/menu-item.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/lib/submenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/lib/tab-pane.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/src/base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/src/breadcrumb-item.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/src/button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/src/checkbox-button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/src/checkbox-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/src/collapse-item.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/src/dropdown-item.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/src/dropdown-menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/src/form-item.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/src/infinite-scroll.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/src/infiniteScroll.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/src/menu-item-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/src/menu-item.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/src/submenu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/packages/theme-chalk/src/tab-pane.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.alert.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.aside.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.autocomplete.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.avatar.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.backtop.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.badge.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.breadcrumb-item.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.breadcrumb.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.button-group.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.button.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.calendar.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.card.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.carousel-item.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.carousel.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.cascader-panel.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.cascader.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.checkbox-button.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.checkbox-group.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.checkbox.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.col.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.collapse-item.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.collapse.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.color-picker.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.component.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.container.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.date-picker.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.dialog.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.divider.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.drawer.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.dropdown-item.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.dropdown-menu.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.dropdown.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.footer.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.form-item.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.form.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.header.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.icon.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.image.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.index.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.infinite-scroll.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.input-number.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.input.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.link.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.loading.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.main.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.menu-item-group.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.menu-item.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.menu.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.message.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.notification.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.option-group.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.option.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.page-header.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.pagination.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.popover.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.progress.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.radio-button.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.radio-group.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.radio.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.rate.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.row.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.select.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.slider.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.step.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.steps.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.submenu.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.switch.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.tab-pane.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.table-column.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.tabs.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.tag.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.time-picker.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.time-select.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.timeline-item.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.timeline.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.tooltip.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.transfer.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/element-ui/types/.upload.d 2.ts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/entities/lib/maps/xml.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/2015/.IsArray 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/2015/.IsCallable 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/2019/thisTimeValue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/2020/thisTimeValue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/2022/thisTimeValue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/operations/..eslintrc 2.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/operations/.es5.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/operations/.getOps.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/extract-css-chunks-webpack-plugin/dist/cjs 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/extract-css-chunks-webpack-plugin/dist/cjs 3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/extract-css-chunks-webpack-plugin/dist/options.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fast-json-stable-stringify/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/iferr/test/.mocha 2.opts.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/json5/lib/.index 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/json5/lib/.require 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/..__ 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.._falseOptions 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.F 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.T 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.add 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.after 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.all 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.allPass 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.always 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.any 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.anyPass 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.apply 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.array 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.ary 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.assign 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.assignAll 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.assignAllWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.assignIn 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.assignInAll 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.assignInAllWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.assignInWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.assignWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.assoc 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.assocPath 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.at 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.attempt 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.before 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.bind 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.bindAll 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.bindKey 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.castArray 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.ceil 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.chain 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.chunk 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.clamp 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.clone 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.cloneDeepWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.cloneWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.collection 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.commit 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.complement 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.compose 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.concat 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.conforms 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.conformsTo 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.contains 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.countBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.create 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.curry 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.curryN 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.curryRight 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.curryRightN 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.date 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.debounce 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.defaultTo 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.defaults 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.defaultsAll 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.defaultsDeep 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.defaultsDeepAll 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.defer 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.delay 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.difference 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.differenceBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.differenceWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.dissoc 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.dissocPath 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.divide 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.drop 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.dropLast 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.dropLastWhile 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.dropRight 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.dropRightWhile 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.dropWhile 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.each 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.eachRight 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.endsWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.entries 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.entriesIn 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.eq 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.equals 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.escape 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.every 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.extend 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.extendAll 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.extendAllWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.extendWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.fill 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.filter 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.find 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.findFrom 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.findIndex 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.findIndexFrom 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.findKey 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.findLast 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.findLastFrom 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.findLastIndex 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.findLastIndexFrom 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.findLastKey 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.first 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.flatMap 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.flatMapDeep 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.flatMapDepth 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.flattenDepth 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.flip 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.floor 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.flow 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.flowRight 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.forEach 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.forEachRight 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.forIn 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.forInRight 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.forOwn 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.forOwnRight 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.fromPairs 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.function 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.get 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.getOr 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.groupBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.gt 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.gte 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.has 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.hasIn 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.identical 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.inRange 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.includes 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.includesFrom 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.indexBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.indexOf 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.indexOfFrom 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.init 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.intersection 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.intersectionBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.invert 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.invertBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.invertObj 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.invoke 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.invokeArgs 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.invokeArgsMap 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.invokeMap 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.isBoolean 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.isEqual 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.isEqualWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.isMap 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.isMatch 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.isMatchWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.isNaN 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.isNative 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.isNil 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.isNull 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.isSafeInteger 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.isSet 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.isUndefined 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.iteratee 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.join 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.juxt 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.keyBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.keys 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.lang 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.last 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.lastIndexOf 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.lastIndexOfFrom 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.lt 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.lte 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.map 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.mapKeys 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.mapValues 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.matches 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.math 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.max 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.maxBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.meanBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.memoize 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.merge 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.mergeAll 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.mergeAllWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.mergeWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.method 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.methodOf 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.min 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.minBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.mixin 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.multiply 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.nAry 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.negate 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.next 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.nth 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.nthArg 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.number 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.object 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.omit 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.omitAll 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.omitBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.once 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.orderBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.over 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.overArgs 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.overEvery 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.overSome 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.pad 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.padChars 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.padCharsEnd 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.padCharsStart 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.padEnd 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.padStart 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.parseInt 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.partial 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.partialRight 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.partition 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.path 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.pathEq 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.pathOr 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.paths 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.pick 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.pickAll 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.pickBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.pipe 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.placeholder 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.plant 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.pluck 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.prop 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.propEq 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.propOr 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.property 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.propertyOf 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.props 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.pull 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.pullAll 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.pullAllBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.pullAllWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.pullAt 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.random 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.range 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.rangeRight 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.rangeStep 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.rangeStepRight 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.rearg 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.reduce 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.reduceRight 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.reject 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.remove 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.repeat 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.replace 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.rest 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.restFrom 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.result 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.reverse 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.round 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.sampleSize 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.seq 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.set 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.setWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.size 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.slice 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.some 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.sortBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.sortedIndex 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.sortedIndexBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.sortedLastIndex 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.sortedLastIndexBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.sortedLastIndexOf 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.sortedUniqBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.split 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.spread 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.spreadFrom 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.startsWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.string 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.subtract 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.sum 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.sumBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.symmetricDifference 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.symmetricDifferenceBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.symmetricDifferenceWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.tail 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.take 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.takeLast 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.takeLastWhile 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.takeRight 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.takeRightWhile 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.takeWhile 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.tap 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.template 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.throttle 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.thru 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.times 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.transform 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.trim 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.trimChars 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.trimCharsEnd 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.trimCharsStart 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.trimEnd 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.trimStart 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.truncate 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.unapply 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.unary 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.union 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.unionBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.unionWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.uniqBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.uniqWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.uniqueId 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.unnest 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.unset 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.unzipWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.update 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.updateWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.useWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.util 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.value 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.where 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.whereEq 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.without 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.words 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.wrap 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.xor 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.xorBy 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.xorWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.zip 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.zipAll 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.zipObj 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.zipObject 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.zipObjectDeep 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/fp/.zipWith 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mdn-data/api/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimist/example/.parse 2.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mustache/wrappers/dojo/mustache.js.post" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mustache/wrappers/mootools/mustache.js.pre" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mustache/wrappers/yui3/mustache.js.post" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mustache/wrappers/yui3/mustache.js.pre" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-html-parser/dist/esm/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/INSTALL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/m4/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/tap-runner" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/main/one.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/main/three.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/test/fixtures/watcher/main/two.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nth-check/.compile.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nth-check/.index.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nth-check/.parse.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nth-check/lib/esm/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pascal-case/node_modules/lower-case/dist.es2015/index.spec.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pascal-case/node_modules/lower-case/dist/index.spec.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pascal-case/node_modules/no-case/dist.es2015/index.spec.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pascal-case/node_modules/no-case/dist/index.spec.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-initial/.vscode/.settings 2.json.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pumpify/node_modules/pump/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/test/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/test/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/querystring-es3/test/common-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/querystring/test/common-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Binary_Property/ASCII 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Binary_Property/ASCII_Hex_Digit 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Binary_Property/Any 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Binary_Property/Bidi_Control 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Binary_Property/Dash 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Binary_Property/Deprecated 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Binary_Property/Emoji_Component 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Binary_Property/Emoji_Modifier 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Binary_Property/Hex_Digit 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Binary_Property/IDS_Binary_Operator 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Binary_Property/IDS_Trinary_Operator 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Binary_Property/Join_Control 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Binary_Property/Pattern_White_Space 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Binary_Property/Radical 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Binary_Property/Regional_Indicator 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Binary_Property/Variation_Selector 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Binary_Property/White_Space 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/General_Category/Connector_Punctuation 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/General_Category/Control 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/General_Category/Enclosing_Mark 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/General_Category/Final_Punctuation 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/General_Category/Initial_Punctuation 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/General_Category/Line_Separator 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/General_Category/Paragraph_Separator 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/General_Category/Private_Use 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/General_Category/Separator 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/General_Category/Space_Separator 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/General_Category/Surrogate 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Adlam 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Ahom 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Anatolian_Hieroglyphs 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Armenian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Avestan 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Balinese 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Bamum 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Bassa_Vah 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Batak 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Bhaiksuki 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Bopomofo 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Brahmi 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Braille 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Buginese 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Buhid 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Canadian_Aboriginal 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Carian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Caucasian_Albanian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Chakma 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Cham 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Cherokee 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Coptic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Cuneiform 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Cypriot 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Deseret 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Dogra 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Egyptian_Hieroglyphs 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Elbasan 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Elymaic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Gothic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Hanifi_Rohingya 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Hanunoo 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Hatran 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Imperial_Aramaic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Inscriptional_Pahlavi 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Inscriptional_Parthian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Javanese 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Kaithi 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Kayah_Li 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Khmer 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Khojki 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Khudawadi 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Lepcha 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Limbu 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Linear_A 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Lisu 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Lycian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Lydian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Mahajani 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Makasar 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Mandaic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Manichaean 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Marchen 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Medefaidrin 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Meetei_Mayek 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Mende_Kikakui 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Meroitic_Cursive 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Meroitic_Hieroglyphs 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Miao 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Modi 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Mro 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Multani 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Myanmar 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Nabataean 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Nandinagari 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/New_Tai_Lue 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Newa 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Nko 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Nushu 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Nyiakeng_Puachue_Hmong 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Ogham 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Ol_Chiki 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Old_Hungarian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Old_Italic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Old_North_Arabian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Old_Permic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Old_Persian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Old_Sogdian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Old_South_Arabian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Old_Turkic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Osage 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Osmanya 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Palmyrene 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Pau_Cin_Hau 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Phags_Pa 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Phoenician 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Psalter_Pahlavi 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Rejang 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Runic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Samaritan 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Saurashtra 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Sharada 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Shavian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Siddham 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/SignWriting 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Sogdian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Sora_Sompeng 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Soyombo 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Sundanese 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Syloti_Nagri 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Syriac 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Tagalog 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Tagbanwa 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Tai_Le 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Tai_Viet 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Takri 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Tangut 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Thaana 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Thai 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Tifinagh 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Tirhuta 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Ugaritic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Vai 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Wancho 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Warang_Citi 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Yi 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script/Zanabazar_Square 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Adlam 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Ahom 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Anatolian_Hieroglyphs 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Armenian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Avestan 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Balinese 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Bamum 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Bassa_Vah 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Batak 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Bhaiksuki 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Brahmi 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Braille 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Buginese 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Buhid 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Canadian_Aboriginal 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Carian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Caucasian_Albanian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Chakma 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Cham 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Cherokee 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Coptic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Cuneiform 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Deseret 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Dogra 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Egyptian_Hieroglyphs 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Elbasan 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Elymaic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Gothic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Hanifi_Rohingya 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Hanunoo 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Hatran 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Imperial_Aramaic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Inscriptional_Pahlavi 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Inscriptional_Parthian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Javanese 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Kaithi 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Kayah_Li 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Khmer 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Khojki 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Khudawadi 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Lepcha 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Limbu 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Linear_A 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Lisu 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Lycian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Lydian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Mahajani 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Makasar 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Mandaic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Manichaean 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Marchen 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Medefaidrin 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Meetei_Mayek 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Mende_Kikakui 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Meroitic_Cursive 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Meroitic_Hieroglyphs 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Miao 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Modi 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Mongolian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Mro 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Myanmar 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Nabataean 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/New_Tai_Lue 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Newa 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Nko 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Nushu 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Nyiakeng_Puachue_Hmong 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Ogham 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Ol_Chiki 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Old_Hungarian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Old_Italic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Old_North_Arabian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Old_Permic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Old_Persian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Old_Sogdian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Old_South_Arabian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Old_Turkic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Osage 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Osmanya 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Palmyrene 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Pau_Cin_Hau 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Phags_Pa 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Phoenician 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Psalter_Pahlavi 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Rejang 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Runic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Samaritan 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Saurashtra 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Sharada 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Shavian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Siddham 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/SignWriting 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Sogdian 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Sora_Sompeng 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Soyombo 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Sundanese 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Syloti_Nagri 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Tagalog 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Tagbanwa 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Tai_Le 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Tai_Viet 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Takri 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Tangut 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Thaana 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Thai 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Tifinagh 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Ugaritic 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Vai 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Wancho 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Warang_Citi 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerate-unicode-properties/Script_Extensions/Zanabazar_Square 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/resolve/test/resolver/cup.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/resolve/test/resolver/foo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/_esm2015/internal/Operator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/_esm2015/internal/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/_esm5/internal/Operator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/_esm5/internal/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/fetch/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/BoundCallbackObservable.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/ConnectableObservable.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/SubscribeOnObservable.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/dom/AjaxObservable.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/dom/WebSocketSubject.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/dom/ajax.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/dom/webSocket.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/distinctUntilKeyChanged.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/operators/distinctUntilKeyChanged.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/ArrayLikeObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/ArrayObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/BoundCallbackObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/ConnectableObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/DeferObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/EmptyObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/ErrorObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/ForkJoinObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/FromEventObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/FromObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/GenerateObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/IfObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/IntervalObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/IteratorObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/NeverObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/PairsObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/PromiseObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/RangeObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/ScalarObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/SubscribeOnObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/TimerObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/UsingObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/bindCallback.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/bindNodeCallback.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/combineLatest.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/concat.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/defer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/empty.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/forkJoin.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/from.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/fromArray.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/fromEvent.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/fromEventPattern.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/fromIterable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/fromPromise.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/generate.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/if.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/interval.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/merge.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/never.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/of.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/onErrorResumeNext.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/pairs.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/race.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/range.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/throw.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/timer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/using.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/zip.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/audit.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/auditTime.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/buffer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/bufferCount.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/bufferTime.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/bufferToggle.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/bufferWhen.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/catch.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/combineAll.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/combineLatest.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/concat.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/concatAll.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/concatMap.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/concatMapTo.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/count.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/debounce.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/debounceTime.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/defaultIfEmpty.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/delay.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/delayWhen.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/dematerialize.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/distinct.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/distinctUntilChanged.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/distinctUntilKeyChanged.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/do.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/elementAt.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/every.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/exhaust.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/exhaustMap.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/expand.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/filter.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/finally.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/find.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/findIndex.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/first.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/groupBy.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/ignoreElements.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/isEmpty.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/last.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/let.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/map.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/mapTo.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/materialize.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/max.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/merge.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/mergeAll.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/mergeMap.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/mergeMapTo.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/mergeScan.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/min.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/multicast.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/observeOn.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/onErrorResumeNext.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/pairwise.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/partition.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/pluck.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/publish.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/publishBehavior.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/publishLast.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/publishReplay.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/race.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/reduce.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/repeat.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/repeatWhen.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/retry.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/retryWhen.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/sample.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/sampleTime.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/scan.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/sequenceEqual.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/share.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/shareReplay.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/single.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/skip.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/skipLast.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/skipUntil.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/skipWhile.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/startWith.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/subscribeOn.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/switch.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/switchMap.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/switchMapTo.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/take.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/takeLast.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/takeUntil.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/takeWhile.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/throttle.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/throttleTime.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/timeInterval.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/timeout.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/timeoutWith.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/timestamp.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/toArray.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/toPromise.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/window.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/windowCount.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/windowTime.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/windowToggle.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/windowWhen.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/withLatestFrom.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/zip.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/zipAll.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/audit.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/auditTime.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/buffer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/bufferCount.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/bufferTime.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/bufferToggle.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/bufferWhen.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/catchError.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/combineAll.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/combineLatest.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/concat.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/concatAll.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/concatMap.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/concatMapTo.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/count.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/debounce.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/debounceTime.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/defaultIfEmpty.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/delay.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/delayWhen.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/dematerialize.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/distinct.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/distinctUntilChanged.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/distinctUntilKeyChanged.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/elementAt.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/every.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/exhaust.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/exhaustMap.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/expand.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/filter.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/finalize.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/find.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/findIndex.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/first.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/groupBy.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/ignoreElements.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/isEmpty.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/last.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/map.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/mapTo.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/materialize.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/max.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/merge.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/mergeAll.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/mergeMap.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/mergeMapTo.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/mergeScan.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/min.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/multicast.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/observeOn.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/onErrorResumeNext.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/pairwise.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/partition.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/pluck.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/publish.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/publishBehavior.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/publishLast.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/publishReplay.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/race.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/reduce.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/refCount.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/repeat.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/repeatWhen.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/retry.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/retryWhen.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/sample.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/sampleTime.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/scan.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/sequenceEqual.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/share.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/shareReplay.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/single.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/skip.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/skipLast.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/skipUntil.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/skipWhile.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/startWith.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/subscribeOn.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/switchAll.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/switchMap.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/switchMapTo.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/take.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/takeLast.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/takeUntil.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/takeWhile.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/tap.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/throttle.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/throttleTime.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/throwIfEmpty.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/timeInterval.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/timeout.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/timeoutWith.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/timestamp.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/toArray.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/window.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/windowCount.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/windowTime.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/windowToggle.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/windowWhen.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/withLatestFrom.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/zip.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operators/zipAll.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/scheduler/animationFrame.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/scheduler/asap.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/scheduler/async.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/scheduler/queue.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/symbol/iterator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/symbol/observable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/symbol/rxSubscriber.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/ArgumentOutOfRangeError.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/EmptyError.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/Immediate.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/ObjectUnsubscribedError.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/TimeoutError.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/UnsubscriptionError.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/applyMixins.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/errorObject.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/hostReportError.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/identity.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/isArray.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/isArrayLike.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/isDate.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/isFunction.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/isIterable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/isNumeric.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/isObject.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/isObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/isPromise.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/isScheduler.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/noop.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/not.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/pipe.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/root.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/subscribeTo.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/subscribeToArray.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/subscribeToIterable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/subscribeToObservable.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/subscribeToPromise.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/subscribeToResult.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/toSubscriber.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/tryCatch.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shell-quote/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shell-quote/example/env 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shell-quote/example/op 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shell-quote/example/parse 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shell-quote/example/quote 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/svgo/bin/svgo 2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/svgo/node_modules/dom-serializer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/svgo/node_modules/domelementtype/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/svgo/node_modules/domutils/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/svgo/node_modules/util.promisify/auto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/dist/TaskRunner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/dist/cjs 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/dist/worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/dist/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/thread-loader/dist/cjs 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/thread-loader/dist/cjs 3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/unfetch/polyfill/package 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/unfetch/polyfill/polyfill 2.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uri-js/.bower.json.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uri-js/.rollup.config.js.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uri-js/.tsconfig.json.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vue-client-only/dist/.vue-client-only.min.js 3.map.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vue-client-only/dist/vue-client-only.min.js 2.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vue-no-ssr/dist/.vue-no-ssr.min.js 2.map.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vue-router/src/entries/cjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vue-router/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vue/compiler-sfc/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vue/compiler-sfc/index 2.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vue/compiler-sfc/package 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vue2-transitions/src/Zoom/move.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/fse.node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/fse.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/buildin/amd-define 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/buildin/amd-define 3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/buildin/amd-options 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/buildin/amd-options 3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/hot/emitter 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/hot/emitter 3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/cacache/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/cacache/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/cacache/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/cacache/verify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/node_modules/chownr/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admin/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/driver/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/driver/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ew2yRyJjjIaDv8dW9aIlmt4grq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/temirlanprimtayev/Documents/hack&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;vuejs.nuxt.types-notification-shown&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9699ada-68a0-482a-94cf-8cf41cf87c77" name="Changes" comment="" />
+      <created>1663492580219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663492580219</updated>
+      <workItem from="1663492583268" duration="735000" />
+      <workItem from="1663499864387" duration="111000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

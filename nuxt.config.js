@@ -53,7 +53,10 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    `~/plugins/dashboard-plugin.js`
+    `~/plugins/dashboard-plugin.js`,
+    // '@/plugins/view-ui',
+    { src: '~/plugins/vue-datepicker', ssr: false },
+
   ],
   /*
   ** Nuxt.js dev-modules

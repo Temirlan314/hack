@@ -1,10 +1,8 @@
 <script>
 import { Table, TableColumn } from "element-ui";
 import formatDate from "~/helpers/formatDate";
-import { BaseNav, Modal } from '@/components';
-import Status from '../../components/Status.vue';
-
-
+import { BaseNav, Modal } from "@/components";
+import Status from "../../components/Status.vue";
 
 export default {
   components: {
@@ -12,8 +10,8 @@ export default {
     [TableColumn.name]: TableColumn,
     BaseNav,
     Modal,
-    Status
-},
+    Status,
+  },
   head() {
     return {
       title: `${this.title}`,
@@ -60,6 +58,14 @@ export default {
         },
       ],
       selectedIndex: 0,
+      selectedTask: {
+        name: "Прибытие на станцию",
+        taskId: 1,
+        time: new Date(),
+        status: "future",
+        taskCategory: "aaaa",
+        done: true,
+      },
       showModal: false,
       list: [
         {
@@ -93,20 +99,19 @@ export default {
       }
       return 0;
     },
-    currentDate(){
-        let date = new Date();
-        console.log(date);
-        console.log(formatDate(date));
-        return date.getHours()
-    }
+    currentDate() {
+      let date = new Date();
+      console.log(date);
+      console.log(formatDate(date));
+      return date.getHours();
+    },
   },
-  methods:{
-    formatDate(data){
-        if(data){
+  methods: {
+    formatDate(data) {
+      if (data) {
         return formatDate(data);
-
-        }
-    }
+      }
+    },
   },
 };
 </script>
@@ -150,14 +155,25 @@ export default {
                     :class="{ active: selectedId == route.routeId }"
                     aria-current="page"
                     href="#"
-                    ><p class="mt-2">
+                    ><p
+                      class="mt-2"
+                      :style="
+                        selectedId == route.routeId ? 'color: #ffffff;' : ''
+                      "
+                    >
                       {{
                         route.departureStation +
                           " - " +
                           route.destinationStation
                       }}
                     </p>
-                    <p>Исполнитель: {{ route.driverName }}</p></a
+                    <p
+                      :style="
+                        selectedId == route.routeId ? 'color: #ffffff;' : ''
+                      "
+                    >
+                      Исполнитель: {{ route.driverName }}
+                    </p></a
                   >
                 </li>
               </ul>
@@ -172,10 +188,13 @@ export default {
           <p>Панель Управления</p>
         </div>
         <div class="col-4 px-2">
-          <div class="card custom-card active">
+          <div
+            class="card custom-card active"
+            style="background-color: #368BFF; color: #ffffff;"
+          >
             <div class="card-body m-2">
               <i class="tim-icons icon-bullet-list-67"></i>
-              <p>Список задач</p>
+              <p style="color: #ffffff;">Список задач</p>
             </div>
           </div>
         </div>
@@ -230,16 +249,21 @@ export default {
                   </div>
                 </div>
                 <hr />
-                <div class="row" v-for="item in tableData" data-target="#exampleModal" @click="showModal = !showModal">
+                <div
+                  class="row"
+                  v-for="item in tableData"
+                  data-target="#exampleModal"
+                  @click="showModal = !showModal"
+                >
                   <div class="col-4 text-center">
                     <p>{{ item.name }}</p>
                     <p>{{ item.taskId }}</p>
                   </div>
                   <div class="col-4 text-center">
-                    <p>{{item.time }}</p>
+                    <p>{{ item.time }}</p>
                   </div>
                   <div class="col-4 text-center">
-                    <p><Status :status="item.status"/></p>
+                    <p><Status :status="item.status" /></p>
                   </div>
                 </div>
               </div>
@@ -248,40 +272,116 @@ export default {
         </div>
       </div>
     </div>
-    <div class="modal fade" tabindex="-1" role="dialog" id="exampleModal">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>Modal body text goes here.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Save changes</button>
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
-          </div>
+    <modal
+      id="modal-2"
+      title=""
+      :show.sync="showModal"
+      :centered="true"
+      :show-close="true"
+    >
+      <p class="my-3 h4">{{ selectedTask.name }}</p>
+      <div class="row">
+        <div class="col-12 mb-2">
+          <p>Дата и Время прибытия *</p>
         </div>
+        <div class="col-4">
+          <date-picker
+            placeholder="17 September, 2022"
+            format="MM/dd/yyyy"
+            v-model="selectedTask.date"
+            :disabled="true"
+
+          />
+        </div>
+        <div class="col-8 pl-4">
+          <base-input
+            type="text"
+            placeholder="19:53"
+            v-model="selectedTask.hour"
+            disabled
+          >
+          </base-input>
+        </div>
+        <div class="col-12 mb-2">
+          <p>Проход медосведетельства *</p>
+        </div>
+        <div class="col-12 mb-2">
+          <input :id="cbId" type="checkbox" v-model="selectedTask.done" disabled/>
+        </div>
+        <div class="col-12 mb-2">
+          <p>Прием локомотива *</p>
+        </div>
+        <div class="col-12 mb-2">
+          <p>Дата и время приема локомотива *</p>
+        </div>
+        <div class="col-4">
+          <date-picker
+            placeholder="17 September, 2022"
+            format="MM/dd/yyyy"
+            v-model="selectedTask.date"
+            :disabled="true"
+          />
+        </div>
+        <div class="col-8 pl-4">
+          <base-input
+            type="text"
+            placeholder="19:53"
+            v-model="selectedTask.hour"
+            disabled
+            
+          >
+          </base-input>
+        </div>
+        <div class="col-12 mb-2">
+          <p>Дата и время отбытия от станции *</p>
+        </div>
+        <div class="col-4">
+          <date-picker
+            placeholder="17 September, 2022"
+            format="MM/dd/yyyy"
+            v-model="selectedTask.date"
+            :disabled="true"
+          />
+        </div>
+        <div class="col-8 pl-4">
+          <base-input
+            type="text"
+            placeholder="19:53"
+            v-model="selectedTask.hour"
+            disabled
+          >
+          </base-input>
+        </div>
+        <div class="col-12 mb-2">
+          <p>Комментарии машиниста *</p>
+        </div>
+        <div class="col-md-12">
+          <base-input>
+            <textarea
+              class="form-control"
+              rows="3"
+              placeholder="Локомотив исправен, все детали на месте, датчики показывают правильные 
+данные. Есть маленькая неполадка в грузовом отсеке, но не критичная."
+              v-model="selectedTask.comments"
+              disabled
+            >
+            </textarea>
+          </base-input>
+        </div>
+        <br />
+        <br />
       </div>
-    </div>
-    <modal id="modal-1" title="BootstrapVue" :show.sync="showModal">
-    <p class="my-4">Hello from modal!</p>
-  </modal>
+    </modal>
   </div>
 </template>
 
-<style></style>
+<style>
+.input {
+}
+.vdp-datepicker * {
+  /* border-radius: 0.4285rem !important; */
+  /* border: 1px solid #cad1d7; */
+  /* box-shadow: none; */
+  /* border-color: rgba(29, 37, 59, 0.5); */
+}
+</style>
