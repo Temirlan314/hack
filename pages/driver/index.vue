@@ -18,6 +18,7 @@ export default {
   },
   data() {
     return {
+      url: "http://localhost:8081",
       selectedTask: {
         name: "Прибытие на станцию",
         taskId: 1,
@@ -27,6 +28,7 @@ export default {
       },
       title: "Driver page",
       selectedIndex: 0,
+      selectedTaskCategory: "subtask",
       fields: [
         {
           key: "identityNo",
@@ -48,21 +50,21 @@ export default {
           taskId: 1,
           time: new Date(),
           status: "success",
-          taskCategory: "aaaa",
+          taskCategory: "subtask",
         },
         {
           name: "Прибытие на станцию",
           taskId: 2,
           time: new Date(),
           status: "pending",
-          taskCategory: "aaaa",
+          taskCategory: "LocoAcceptance",
         },
         {
           name: "Прибытие на станцию",
           taskId: 3,
           time: new Date(),
           status: "future",
-          taskCategory: "aaaa",
+          taskCategory: "LocoSubmission",
         },
       ],
     };
@@ -88,23 +90,67 @@ export default {
     }
   },
   methods: {
-    toDetail(id) {
-      getDetail(id);
+    send() {
+      this.sendDetails(this.selectedTask.taskCategory);
+    },
+    save() {},
+    toDetail(index, id) {
+      this.selectedIndex = index;
+      this.selectedTaskCategory = this.tableData[index].taskCategory;
+      this.getDetail(id);
+    },
+    async sendDetails(category) {
+      if (category == "subtask") {
+        await this.$axios.post(
+          `${this.url}/driver/saveSubtask`,
+          this.selectedTask
+        );
+      } else if (category == "LocoAcceptance") {
+        await this.$axios.post(
+          `${this.url}/driver/saveLocoAcceptance`,
+          this.selectedTask
+        );
+      } else if (category == "LocoSubmission") {
+        await this.$axios.post(
+          `${this.url}/driver/saveLocoSubmission`,
+          this.selectedTask
+        );
+      } else {
+        await this.$axios.post(
+          `${this.url}/driver/saveStationData`,
+          this.selectedTask
+        );
+      }
     },
     async getDetail(id) {
       let response;
       try {
-        response = await this.$axios.get(`${this.url}/driver/getSubtask/${id}`);
-        // response = await this.$axios.get(`${this.url}/driver/getLocoSubmission/${id}`);
-        // response = await this.$axios.get(`${this.url}/driver/getLocoAcceptance/${id}`);
-        // response = await this.$axios.get(`${this.url}/driver/getStationData/${id}`);
+        if (this.selectedTaskCategory == "subtask") {
+          response = await this.$axios.get(
+            `${this.url}/driver/getSubtask/${id}`
+          );
+        } else if (this.selectedTaskCategory == "LocoAcceptance") {
+          response = await this.$axios.get(
+            `${this.url}/driver/getLocoAcceptance/${id}`
+          );
+        } else if (this.selectedTaskCategory == "LocoSubmission") {
+          response = await this.$axios.get(
+            `${this.url}/driver/getLocoSubmission/${id}`
+          );
+        } else {
+          response = await this.$axios.get(
+            `${this.url}/driver/getStationData/${id}`
+          );
+        }
       } catch (error) {
         console.log(error);
       }
 
       if (response && response.data) {
-        this.taskData = response.data;
+        this.selectedTask = response.data;
       }
+      this.selectedTask.taskCategory = this.selectedTaskCategory
+
     },
   },
 };
@@ -142,7 +188,7 @@ export default {
                 <li
                   class="nav-item my-2"
                   v-for="(item, index) in tableData"
-                  @click="selectedIndex = index"
+                  @click="toDetail(index, item.taskId)"
                 >
                   <a
                     class="nav-link"
@@ -251,7 +297,7 @@ export default {
                   <date-picker
                     placeholder="17 September, 2022"
                     format="MM/dd/yyyy"
-                    v-model="selectedTask.date"
+                    v-model="selectedTask.time"
                   />
                 </div>
                 <div class="col-8 pl-4">
@@ -266,73 +312,19 @@ export default {
                   <p>Проход медосведетельства *</p>
                 </div>
                 <div class="col-12 mb-2">
-                  <input
-                    :id="cbId"
-                    type="checkbox"
-                    v-model="selectedTask.done"
-                  />
-                </div>
-                <div class="col-12 mb-2">
-                  <p>Прием локомотива *</p>
-                </div>
-                <div class="col-12 mb-2">
-                  <p>Дата и время приема локомотива *</p>
-                </div>
-                <div class="col-4">
-                  <date-picker
-                    placeholder="17 September, 2022"
-                    format="MM/dd/yyyy"
-                    v-model="selectedTask.date"
-                  />
-                </div>
-                <div class="col-8 pl-4">
-                  <base-input
-                    type="text"
-                    placeholder="19:53"
-                    v-model="selectedTask.hour"
-                  >
-                  </base-input>
-                </div>
-                <div class="col-12 mb-2">
-                  <p>Дата и время отбытия от станции *</p>
-                </div>
-                <div class="col-4">
-                  <date-picker
-                    placeholder="17 September, 2022"
-                    format="MM/dd/yyyy"
-                    v-model="selectedTask.date"
-                  />
-                </div>
-                <div class="col-8 pl-4">
-                  <base-input
-                    type="text"
-                    placeholder="19:53"
-                    v-model="selectedTask.hour"
-                  >
-                  </base-input>
-                </div>
-                <div class="col-12 mb-2">
-                  <p>Комментарии машиниста *</p>
-                </div>
-                <div class="col-md-12">
-                  <base-input>
-                    <textarea
-                      class="form-control"
-                      rows="3"
-                      placeholder="Локомотив исправен, все детали на месте, датчики показывают правильные 
-  данные. Есть маленькая неполадка в грузовом отсеке, но не критичная."
-                      v-model="selectedTask.comments"
-                    >
-                    </textarea>
-                  </base-input>
+                  <input type="checkbox" v-model="selectedTask.done" />
                 </div>
                 <br />
                 <br />
               </div>
 
               <br /><br /><br />
-              <div class="col-3 btn btn-info">Отправить данные</div>
-              <div class="col-2 btn btn-secondary px-0">Сохранить</div>
+              <div class="col-3 btn btn-info" @click="send()">
+                Отправить данные
+              </div>
+              <div class="col-2 btn btn-secondary px-0" @click="save()">
+                Сохранить
+              </div>
             </div>
           </div>
           <div
@@ -341,6 +333,7 @@ export default {
           >
             <div class="card-body">
               <div class="row">
+                <p class="my-3 h4">{{ selectedTask.name }}</p>
                 <div class="col-12 mb-2">
                   <p>Дата и Время прибытия *</p>
                 </div>
@@ -382,6 +375,14 @@ export default {
                   </base-input>
                 </div>
               </div>
+
+              <br /><br /><br />
+              <div class="col-3 btn btn-info" @click="send()">
+                Отправить данные
+              </div>
+              <div class="col-2 btn btn-secondary px-0" @click="save()">
+                Сохранить
+              </div>
             </div>
           </div>
           <div
@@ -390,7 +391,92 @@ export default {
           >
             <div class="card-body">
               <div class="row">
-                
+                <p class="my-3 h4">{{ selectedTask.name }}</p>
+
+                <div class="col-12 mb-2">
+                  <p>Дата и время сдачи *</p>
+                </div>
+                <div class="col-4">
+                  <date-picker
+                    placeholder="17 September, 2022"
+                    format="MM/dd/yyyy"
+                    v-model="selectedTask.time"
+                  />
+                </div>
+                <div class="col-8 pl-4">
+                  <base-input
+                    type="text"
+                    placeholder="19:53"
+                    v-model="selectedTask.hour"
+                  >
+                  </base-input>
+                </div>
+                <div class="col-12 mb-2">
+                  <p>Cчетчик рекуприации *</p>
+                </div>
+                <div class="col-12 pl-4">
+                  <base-input
+                    type="text"
+                    placeholder="9999"
+                    v-model="selectedTask.recuperationCounter"
+                  >
+                  </base-input>
+                </div>
+                <div class="col-12 mb-2">
+                  <p>Счетчик электрооптл.ваг. *</p>
+                </div>
+                <div class="col-12 pl-4">
+                  <base-input
+                    type="text"
+                    placeholder="9999"
+                    v-model="selectedTask.electricCounter"
+                  >
+                  </base-input>
+                </div>
+                <div class="col-md-12">
+                  <base-input>
+                    <textarea
+                      class="form-control"
+                      rows="3"
+                      placeholder="Локомотив исправен, все детали на месте, датчики показывают правильные 
+  данные. Есть маленькая неполадка в грузовом отсеке, но не критичная."
+                      v-model="selectedTask.comments"
+                    >
+                    </textarea>
+                  </base-input>
+                </div>
+                <div class="col-md-12">
+                  <base-input>
+                    <textarea
+                      class="form-control"
+                      rows="3"
+                      placeholder="Локомотив исправен, все детали на месте, датчики показывают правильные 
+  данные. Есть маленькая неполадка в грузовом отсеке, но не критичная."
+                      v-model="selectedTask.comments"
+                    >
+                    </textarea>
+                  </base-input>
+                </div>
+                <div class="col-md-12">
+                  <base-input>
+                    <textarea
+                      class="form-control"
+                      rows="3"
+                      placeholder="Локомотив исправен, все детали на месте, датчики показывают правильные 
+  данные. Есть маленькая неполадка в грузовом отсеке, но не критичная."
+                      v-model="selectedTask.comments"
+                    >
+                    </textarea>
+                  </base-input>
+                </div>
+              </div>
+
+              <br /><br /><br />
+              <div class="col-3 btn btn-info" @click="send()">
+                Отправить данные
+              </div>
+              <div class="col-2 btn btn-secondary px-0" @click="save()">
+                Сохранить
               </div>
             </div>
           </div>
@@ -399,9 +485,7 @@ export default {
             v-if="selectedTask.taskCategory == 'StationData'"
           >
             <div class="card-body">
-              <p class="h3">
-                Прибытие на станцию
-              </p>
+              <p class="my-3 h4">{{ selectedTask.name }}</p>
               <div class="row">
                 <div class="col-12 h4">Дата и время</div>
                 <div class="col-12 mb-2">
@@ -446,7 +530,7 @@ export default {
                 <div class="col-12 pl-4">
                   <base-input
                     type="text"
-                    placeholder="9999"
+                    placeholder="9999 кг"
                     v-model="selectedTask.weightNetto"
                   >
                   </base-input>
@@ -457,7 +541,7 @@ export default {
                 <div class="col-12 pl-4">
                   <base-input
                     type="text"
-                    placeholder="9999"
+                    placeholder="9999 кг"
                     v-model="selectedTask.weightBrutto"
                   >
                   </base-input>
@@ -479,11 +563,19 @@ export default {
                 <div class="col-12 pl-4">
                   <base-input
                     type="text"
-                    placeholder="9999"
+                    placeholder="10"
                     v-model="selectedTask.axesComposition"
                   >
                   </base-input>
                 </div>
+              </div>
+
+              <br /><br /><br />
+              <div class="col-3 btn btn-info" @click="send()">
+                Отправить данные
+              </div>
+              <div class="col-2 btn btn-secondary px-0" @click="save()">
+                Сохранить
               </div>
             </div>
           </div>

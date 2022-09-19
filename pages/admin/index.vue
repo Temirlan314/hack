@@ -128,17 +128,18 @@ export default {
       // this.list = response.data.concat(this.list);
       console.log(response.data);
       this.list = response.data;
-      let data;
-      try {
-        data = await this.$axios.get(
-          `${this.url}/manager/route/${response.data[0].routeId}`
-        );
-      } catch (error) {
-        console.log(error);
-      }
-      if (data && data.data && data.data.length) {
-        this.tableData = data.data;
-      }
+      this.getDetail(list[0].taskId, 0)
+      // let data;
+      // try {
+      //   data = await this.$axios.get(
+      //     `${this.url}/manager/route/${response.data[0].routeId}`
+      //   );
+      // } catch (error) {
+      //   console.log(error);
+      // }
+      // if (data && data.data && data.data.length) {
+      //   this.tableData = data.data;
+      // }
     }
   },
 
@@ -214,9 +215,9 @@ export default {
         return null;
       }
     },
-    getDetail(id, index) {
-      const routes = this.getRoute(id);
-      const routeDetails = this.getRouteDetail(id);
+    async getDetail(id, index) {
+      const routes = await this.getRoute(id);
+      const routeDetails = await this.getRouteDetail(id);
 
       this.selectedIndex = index;
 
