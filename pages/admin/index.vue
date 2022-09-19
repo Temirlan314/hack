@@ -50,21 +50,21 @@ export default {
           taskId: 1,
           time: new Date(),
           status: "success",
-          taskCategory: "aaaa",
+          taskCategory: "subtask",
         },
         {
           name: "Прибытие на станцию",
           taskId: 1,
           time: new Date(),
           status: "pending",
-          taskCategory: "aaaa",
+          taskCategory: "StationData",
         },
         {
           name: "Прибытие на станцию",
           taskId: 1,
           time: new Date(),
           status: "future",
-          taskCategory: "aaaa",
+          taskCategory: "LocoSubmission",
         },
       ],
       selectedIndex: 0,
@@ -128,7 +128,7 @@ export default {
       // this.list = response.data.concat(this.list);
       console.log(response.data);
       this.list = response.data;
-      this.getDetail(this.list[0].routeId, 0)
+      this.getDetail(this.list[0].routeId, 0);
       // let data;
       // try {
       //   data = await this.$axios.get(
@@ -214,6 +214,25 @@ export default {
         console.log(error);
         return null;
       }
+    },
+    async getTaskDetail(category, id) {
+      console.log(category, id);
+      this.showModal = true;
+      let response;
+      if (category == "subtask") {
+        response = await this.getRouteSubtask(id);
+      } else if (category == "LocoAcceptance") {
+        response = await this.getLocoAcceptance(id);
+      } else if (category == "LocoSubmission") {
+        response = await this.getLocoSubmission(id);
+      } else {
+        response = await this.getStationData(id);
+      }
+
+      if(response && response.data){
+        this.selectedTask = response.data
+      }
+      this.selectedTask.taskCategory = category
     },
     async getDetail(id, index) {
       const routes = await this.getRoute(id);
@@ -448,7 +467,7 @@ export default {
                   class="row"
                   v-for="item in tableData"
                   data-target="#exampleModal"
-                  @click="showModal = !showModal"
+                  @click="getTaskDetail(item.taskCategory, item.taskId)"
                 >
                   <div class="col-4 text-center">
                     <p>{{ item.name }}</p>
@@ -507,8 +526,8 @@ export default {
       :centered="true"
       :show-close="true"
     >
-      <p class="my-3 h4">{{ selectedTask.name }}</p>
-      <div class="row">
+      <!-- <p class="my-3 h4">{{ selectedTask.name }}</p> -->
+      <!-- <div class="row">
         <div class="col-12 mb-2">
           <p>Дата и Время прибытия *</p>
         </div>
@@ -596,6 +615,300 @@ export default {
         </div>
         <br />
         <br />
+      </div> -->
+      <div class="row">
+        <div class="col-12 px-2">
+          <div
+            class="card custom-card p-4"
+            v-if="selectedTask.taskCategory == 'subtask'"
+          >
+            <div class="card-body">
+              <p class="my-3 h4">{{ selectedTask.name }}</p>
+              <div class="row">
+                <div class="col-12 mb-2">
+                  <p>Дата и Время прибытия *</p>
+                </div>
+                <div class="col-4 pl-1">
+                  <date-picker
+                    placeholder="17 September, 2022"
+                    format="MM/dd/yyyy"
+                    v-model="selectedTask.time"
+                    :disabled="true"
+                  />
+                </div>
+                <div class="col-8 pl-4">
+                  <base-input
+                    type="text"
+                    placeholder="19:53"
+                    v-model="selectedTask.hour"
+                    disabled
+                  >
+                  </base-input>
+                </div>
+                <div class="col-12 mb-2">
+                  <p>Проход медосведетельства *</p>
+                </div>
+                <div class="col-12 mb-2">
+                  <input type="checkbox" v-model="selectedTask.done" disabled />
+                </div>
+                <br />
+                <br />
+              </div>
+
+              <br /><br /><br />
+            </div>
+          </div>
+          <div
+            class="card custom-card p-4"
+            v-if="selectedTask.taskCategory == 'LocoAcceptance'"
+          >
+            <div class="card-body">
+              <div class="row">
+                <p class="my-3 h4">{{ selectedTask.name }}</p>
+                <div class="col-12 mb-2">
+                  <p>Дата и Время прибытия *</p>
+                </div>
+                <div class="col-4 pl-1">
+                  <date-picker
+                    placeholder="17 September, 2022"
+                    format="MM/dd/yyyy"
+                    v-model="selectedTask.time"
+                    :disabled="true"
+                  />
+                </div>
+                <div class="col-8 pl-4">
+                  <base-input
+                    type="text"
+                    placeholder="19:53"
+                    v-model="selectedTask.hour"
+                    disabled
+                  >
+                  </base-input>
+                </div>
+                <div class="col-12 mb-2">
+                  <p>Cчетчик рекуприации *</p>
+                </div>
+                <div class="col-12 pl-4">
+                  <base-input
+                    type="text"
+                    placeholder="9999"
+                    v-model="selectedTask.recuperationCounter"
+                    disabled
+                  >
+                  </base-input>
+                </div>
+                <div class="col-12 mb-2">
+                  <p>Счетчик электрооптл.ваг. *</p>
+                </div>
+                <div class="col-12 pl-4">
+                  <base-input
+                    type="text"
+                    placeholder="9999"
+                    v-model="selectedTask.electricCounter"
+                    disabled
+                  >
+                  </base-input>
+                </div>
+              </div>
+
+              <br /><br /><br />
+            </div>
+          </div>
+          <div
+            class="card custom-card p-4"
+            v-if="selectedTask.taskCategory == 'LocoSubmission'"
+          >
+            <div class="card-body">
+              <div class="row">
+                <p class="my-3 h4">{{ selectedTask.name }}</p>
+
+                <div class="col-12 mb-2">
+                  <p>Дата и время сдачи *</p>
+                </div>
+                <div class="col-4 pl-1">
+                  <date-picker
+                    placeholder="17 September, 2022"
+                    format="MM/dd/yyyy"
+                    v-model="selectedTask.time"
+                    :disabled="true"
+                  />
+                </div>
+                <div class="col-8 pl-4">
+                  <base-input
+                    type="text"
+                    placeholder="19:53"
+                    v-model="selectedTask.hour"
+                    disabled
+                  >
+                  </base-input>
+                </div>
+                <div class="col-12 mb-2">
+                  <p>Cчетчик рекуприации *</p>
+                </div>
+                <div class="col-12 pl-4">
+                  <base-input
+                    type="text"
+                    placeholder="9999"
+                    v-model="selectedTask.recuperationCounter"
+                    disabled
+                  >
+                  </base-input>
+                </div>
+                <div class="col-12 mb-2">
+                  <p>Счетчик электрооптл.ваг. *</p>
+                </div>
+                <div class="col-12 pl-4">
+                  <base-input
+                    type="text"
+                    placeholder="9999"
+                    v-model="selectedTask.electricCounter"
+                    disabled
+                  >
+                  </base-input>
+                </div>
+                <div class="col-md-12">
+                  <base-input disabled>
+                    <textarea
+                      class="form-control"
+                      rows="3"
+                      placeholder="Локомотив исправен, все детали на месте, датчики показывают правильные 
+  данные. Есть маленькая неполадка в грузовом отсеке, но не критичная."
+                      v-model="selectedTask.comments"
+                    >
+                    </textarea>
+                  </base-input>
+                </div>
+                <div class="col-md-12">
+                  <base-input disabled>
+                    <textarea
+                      class="form-control"
+                      rows="3"
+                      placeholder="Локомотив исправен, все детали на месте, датчики показывают правильные 
+  данные. Есть маленькая неполадка в грузовом отсеке, но не критичная."
+                      v-model="selectedTask.comments"
+                    >
+                    </textarea>
+                  </base-input>
+                </div>
+                <div class="col-md-12">
+                  <base-input disabled>
+                    <textarea
+                      class="form-control"
+                      rows="3"
+                      placeholder="Локомотив исправен, все детали на месте, датчики показывают правильные 
+  данные. Есть маленькая неполадка в грузовом отсеке, но не критичная."
+                      v-model="selectedTask.comments"
+                    >
+                    </textarea>
+                  </base-input>
+                </div>
+              </div>
+
+              <br /><br /><br />
+            </div>
+          </div>
+          <div
+            class="card custom-card p-4"
+            v-if="selectedTask.taskCategory == 'StationData'"
+          >
+            <div class="card-body">
+              <p class="my-3 h4">{{ selectedTask.name }}</p>
+              <div class="row">
+                <div class="col-12 h4">Дата и время</div>
+                <div class="col-12 mb-2">
+                  <p>Дата и время приема локомотива *</p>
+                </div>
+                <div class="col-4 pl-1">
+                  <date-picker
+                    placeholder="17 September, 2022"
+                    format="MM/dd/yyyy"
+                    v-model="selectedTask.arrivalTime"
+                    :disabled="true"
+                  />
+                </div>
+                <div class="col-8 pl-4">
+                  <base-input
+                    type="text"
+                    placeholder="19:53"
+                    v-model="selectedTask.hour"
+                    disabled
+                  >
+                  </base-input>
+                </div>
+                <div class="col-12 mb-2">
+                  <p>Дата и время отбытия от станции *</p>
+                </div>
+                <div class="col-4 pl-1">
+                  <date-picker
+                    placeholder="17 September, 2022"
+                    format="MM/dd/yyyy"
+                    v-model="selectedTask.departureTime"
+                    :disabled="true"
+                  />
+                </div>
+                <div class="col-8 pl-4">
+                  <base-input
+                    type="text"
+                    placeholder="19:53"
+                    v-model="selectedTask.hour"
+                    disabled
+                  >
+                  </base-input>
+                </div>
+                <div class="col-12 mb-2">
+                  <p>Масса нетто *</p>
+                </div>
+                <div class="col-12 pl-4">
+                  <base-input
+                    type="text"
+                    placeholder="9999 кг"
+                    v-model="selectedTask.weightNetto"
+                    disabled
+                  >
+                  </base-input>
+                </div>
+                <div class="col-12 mb-2">
+                  <p>Масса брутто *</p>
+                </div>
+                <div class="col-12 pl-4">
+                  <base-input
+                    type="text"
+                    placeholder="9999 кг"
+                    v-model="selectedTask.weightBrutto"
+                    disabled
+                  >
+                  </base-input>
+                </div>
+                <div class="col-12 mb-2">
+                  <p>Цистерна *</p>
+                </div>
+                <div class="col-12 pl-4">
+                  <base-input
+                    type="text"
+                    placeholder="9999"
+                    v-model="selectedTask.cisterns"
+                    disabled
+                  >
+                  </base-input>
+                </div>
+                <div class="col-12 mb-2">
+                  <p>Состав поезда в осях *</p>
+                </div>
+                <div class="col-12 pl-4">
+                  <base-input
+                    type="text"
+                    placeholder="10"
+                    v-model="selectedTask.axesComposition"
+                    disabled
+                  >
+                  </base-input>
+                </div>
+              </div>
+
+              <br /><br /><br />
+            </div>
+          </div>
+        </div>
       </div>
     </modal>
   </div>
