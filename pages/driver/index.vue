@@ -78,6 +78,7 @@ export default {
     },
   },
   async mounted() {
+    // await this.$store.dispatch("manager/get_routes", 235)
     let response;
     try {
       response = await this.$axios.get(`${this.url}/driver/getTasks/1`);

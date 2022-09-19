@@ -50,10 +50,10 @@ export const mutations = {
 export const actions = {
     async get_routes({ commit }, id) {
         try {
-            commit('SET_ERROR', null)
-            const response = await this.$repositories.manager.getRoutes(id);
-            console.log(response, "ROUTES");
-            commit('SET_LIMITS', response.data)
+            // commit('SET_ERROR', null)
+            // const response = await this.$repositories.manager.getRoutes(id);
+            // console.log(response, "ROUTES");
+            commit('SET_LIMITS', id)
             return response.data
         } catch (error) {
             const handledError = handleError(error)

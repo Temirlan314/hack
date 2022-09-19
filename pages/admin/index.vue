@@ -215,6 +215,21 @@ export default {
         return null;
       }
     },
+    async getFile(id) {
+      try {
+        const response = await this.$axios.get(`${this.url}/report/${id}`);
+        if (response) {
+          var a = document.createElement("a");
+          a.href = window.URL.createObjectURL(response.data);
+          a.download = "report";
+          a.click();
+        }
+        return response;
+      } catch (error) {
+        console.log(error);
+        return null;
+      }
+    },
     async getTaskDetail(category, id) {
       console.log(category, id);
       this.showModal = true;
@@ -229,10 +244,10 @@ export default {
         response = await this.getStationData(id);
       }
 
-      if(response && response.data){
-        this.selectedTask = response.data
+      if (response && response.data) {
+        this.selectedTask = response.data;
       }
-      this.selectedTask.taskCategory = category
+      this.selectedTask.taskCategory = category;
     },
     async getDetail(id, index) {
       const routes = await this.getRoute(id);
@@ -514,6 +529,12 @@ export default {
               <p>Данные о поезде</p>
               <p>Масса:</p>
               <p>Расход топливо:</p>
+
+              <br /><br /><br />
+
+              <div class="btn btn-info" @click="getFile(selectedId)">
+                Экспортировать файл
+              </div>
             </div>
           </div>
         </div>
