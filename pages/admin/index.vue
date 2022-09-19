@@ -128,7 +128,7 @@ export default {
       // this.list = response.data.concat(this.list);
       console.log(response.data);
       this.list = response.data;
-      this.getDetail(list[0].taskId, 0)
+      this.getDetail(this.list[0].taskId, 0)
       // let data;
       // try {
       //   data = await this.$axios.get(
