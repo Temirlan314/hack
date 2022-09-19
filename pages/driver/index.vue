@@ -192,7 +192,7 @@ export default {
                 >
                   <a
                     class="nav-link"
-                    :class="{ active: selectedId == item.taskId }"
+                    :class="{ active: selectedIndex == index }"
                     aria-current="page"
                     href="#"
                   >
