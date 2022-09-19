@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9699ada-68a0-482a-94cf-8cf41cf87c77" name="Changes" comment="linked front and back">
+    <list default="true" id="d9699ada-68a0-482a-94cf-8cf41cf87c77" name="Changes" comment="fixed bugs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/nuxt-i18n/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/nuxt-i18n/options.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/routes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/.target.mk" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/.target.mk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/.deps/Release/.node.d" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/.deps/Release/.node.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/.deps/Release/fse.node.d" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/.deps/Release/fse.node.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/.deps/Release/obj.target/fse/fsevents.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/.deps/Release/obj.target/fse/fsevents.o.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/.node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/.node" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/fse.node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/fse.node" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/obj.target/fse/fsevents.o" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/Release/obj.target/fse/fsevents.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/config.gypi" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/config.gypi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/fse.target.mk" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/fse.target.mk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/gyp-mac-tool" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/watchpack-chokidar2/node_modules/fsevents/build/gyp-mac-tool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/admin/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/driver/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/driver/index.vue" afterDir="false" />
     </list>
@@ -69,7 +53,7 @@
       <workItem from="1663501646692" duration="7213000" />
       <workItem from="1663522816340" duration="598000" />
       <workItem from="1663570342852" duration="1108000" />
-      <workItem from="1663584968012" duration="656000" />
+      <workItem from="1663584968012" duration="2914000" />
     </task>
     <task id="LOCAL-00001" summary="linked front and back">
       <created>1663507763269</created>
@@ -78,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663507763270</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed bugs">
+      <created>1663585811133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663585811133</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +88,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="linked front and back" />
-    <option name="LAST_COMMIT_MESSAGE" value="linked front and back" />
+    <MESSAGE value="fixed bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bugs" />
   </component>
 </project>

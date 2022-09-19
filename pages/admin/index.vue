@@ -219,7 +219,7 @@ export default {
       console.log(category, id);
       this.showModal = true;
       let response;
-      if (category == "subtask") {
+      if (category == "arrival" || category == "finish") {
         response = await this.getRouteSubtask(id);
       } else if (category == "LocoAcceptance") {
         response = await this.getLocoAcceptance(id);
@@ -620,7 +620,7 @@ export default {
         <div class="col-12 px-2">
           <div
             class="card custom-card p-4"
-            v-if="selectedTask.taskCategory == 'subtask'"
+            v-if="selectedTask.taskCategory == 'finish' || selectedTask.taskCategory == 'arrival'"
           >
             <div class="card-body">
               <p class="my-3 h4">{{ selectedTask.name }}</p>
