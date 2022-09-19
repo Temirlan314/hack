@@ -24,11 +24,11 @@ export default {
         taskId: 1,
         time: new Date(),
         status: "future",
-        taskCategory: "subtask",
+        taskCategory: "arrival",
       },
       title: "Driver page",
       selectedIndex: 0,
-      selectedTaskCategory: "subtask",
+      selectedTaskCategory: "arrival",
       fields: [
         {
           key: "identityNo",
@@ -50,7 +50,7 @@ export default {
           taskId: 1,
           time: new Date(),
           status: "success",
-          taskCategory: "subtask",
+          taskCategory: "arrival",
         },
         {
           name: "Прибытие на станцию",
@@ -86,7 +86,7 @@ export default {
       console.log(error);
     }
 
-    if (response && response.data && !response.data.length) {
+    if (response && response.data && response.data.length) {
       this.tableData = response.data;
     }
   },
@@ -101,7 +101,7 @@ export default {
       this.getDetail(id);
     },
     async sendDetails(category) {
-      if (category == "subtask") {
+      if (category == "arrival" || category == "finish") {
         await this.$axios.post(
           `${this.url}/driver/saveSubtask`,
           this.selectedTask
@@ -126,7 +126,7 @@ export default {
     async getDetail(id) {
       let response;
       try {
-        if (this.selectedTaskCategory == "subtask") {
+        if (this.selectedTaskCategory == "arrival" || this.selectedTaskCategory == "finish") {
           response = await this.$axios.get(
             `${this.url}/driver/getSubtask/${id}`
           );
@@ -286,7 +286,7 @@ export default {
         <div class="col-12 px-2">
           <div
             class="card custom-card p-4"
-            v-if="selectedTask.taskCategory == 'subtask'"
+            v-if="selectedTask.taskCategory == 'arrival' || selectedTask.taskCategory == 'finish'"
           >
             <div class="card-body">
               <p class="my-3 h4">{{ selectedTask.name }}</p>
@@ -488,7 +488,7 @@ export default {
             <div class="card-body">
               <p class="my-3 h4">{{ selectedTask.name }}</p>
               <div class="row">
-                <div class="col-12 h4">Дата и время</div>
+                <div class="col-12 h4">Станция</div>
                 <div class="col-12 mb-2">
                   <p>Дата и время приема локомотива *</p>
                 </div>

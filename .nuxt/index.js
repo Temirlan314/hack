@@ -13,13 +13,13 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_axios_36e5c7ca from 'nuxt_plugin_axios_36e5c7ca' // Source: ./axios.js (mode: 'all')
-import nuxt_plugin_pluginutils_f538189e from 'nuxt_plugin_pluginutils_f538189e' // Source: ./nuxt-i18n/plugin.utils.js (mode: 'all')
-import nuxt_plugin_pluginrouting_723658bc from 'nuxt_plugin_pluginrouting_723658bc' // Source: ./nuxt-i18n/plugin.routing.js (mode: 'all')
-import nuxt_plugin_pluginmain_4d33ac33 from 'nuxt_plugin_pluginmain_4d33ac33' // Source: ./nuxt-i18n/plugin.main.js (mode: 'all')
-import nuxt_plugin_workbox_d3391b34 from 'nuxt_plugin_workbox_d3391b34' // Source: ./workbox.js (mode: 'client')
-import nuxt_plugin_metaplugin_5d22190e from 'nuxt_plugin_metaplugin_5d22190e' // Source: ./pwa/meta.plugin.js (mode: 'all')
-import nuxt_plugin_iconplugin_53d2ce26 from 'nuxt_plugin_iconplugin_53d2ce26' // Source: ./pwa/icon.plugin.js (mode: 'all')
+import nuxt_plugin_axios_e9fa7c90 from 'nuxt_plugin_axios_e9fa7c90' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_pluginutils_11585383 from 'nuxt_plugin_pluginutils_11585383' // Source: ./nuxt-i18n/plugin.utils.js (mode: 'all')
+import nuxt_plugin_pluginrouting_5adbe7e4 from 'nuxt_plugin_pluginrouting_5adbe7e4' // Source: ./nuxt-i18n/plugin.routing.js (mode: 'all')
+import nuxt_plugin_pluginmain_202b0a21 from 'nuxt_plugin_pluginmain_202b0a21' // Source: ./nuxt-i18n/plugin.main.js (mode: 'all')
+import nuxt_plugin_workbox_5729a8d4 from 'nuxt_plugin_workbox_5729a8d4' // Source: ./workbox.js (mode: 'client')
+import nuxt_plugin_metaplugin_ddf24832 from 'nuxt_plugin_metaplugin_ddf24832' // Source: ./pwa/meta.plugin.js (mode: 'all')
+import nuxt_plugin_iconplugin_d4a2fd4a from 'nuxt_plugin_iconplugin_d4a2fd4a' // Source: ./pwa/icon.plugin.js (mode: 'all')
 import nuxt_plugin_dashboardplugin_111ada96 from 'nuxt_plugin_dashboardplugin_111ada96' // Source: ../plugins/dashboard-plugin.js (mode: 'all')
 import nuxt_plugin_vuedatepicker_19e66559 from 'nuxt_plugin_vuedatepicker_19e66559' // Source: ../plugins/vue-datepicker (mode: 'client')
 
@@ -218,32 +218,32 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_axios_36e5c7ca === 'function') {
-    await nuxt_plugin_axios_36e5c7ca(app.context, inject)
+  if (typeof nuxt_plugin_axios_e9fa7c90 === 'function') {
+    await nuxt_plugin_axios_e9fa7c90(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginutils_f538189e === 'function') {
-    await nuxt_plugin_pluginutils_f538189e(app.context, inject)
+  if (typeof nuxt_plugin_pluginutils_11585383 === 'function') {
+    await nuxt_plugin_pluginutils_11585383(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginrouting_723658bc === 'function') {
-    await nuxt_plugin_pluginrouting_723658bc(app.context, inject)
+  if (typeof nuxt_plugin_pluginrouting_5adbe7e4 === 'function') {
+    await nuxt_plugin_pluginrouting_5adbe7e4(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_pluginmain_4d33ac33 === 'function') {
-    await nuxt_plugin_pluginmain_4d33ac33(app.context, inject)
+  if (typeof nuxt_plugin_pluginmain_202b0a21 === 'function') {
+    await nuxt_plugin_pluginmain_202b0a21(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_workbox_d3391b34 === 'function') {
-    await nuxt_plugin_workbox_d3391b34(app.context, inject)
+  if (process.client && typeof nuxt_plugin_workbox_5729a8d4 === 'function') {
+    await nuxt_plugin_workbox_5729a8d4(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_metaplugin_5d22190e === 'function') {
-    await nuxt_plugin_metaplugin_5d22190e(app.context, inject)
+  if (typeof nuxt_plugin_metaplugin_ddf24832 === 'function') {
+    await nuxt_plugin_metaplugin_ddf24832(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_iconplugin_53d2ce26 === 'function') {
-    await nuxt_plugin_iconplugin_53d2ce26(app.context, inject)
+  if (typeof nuxt_plugin_iconplugin_d4a2fd4a === 'function') {
+    await nuxt_plugin_iconplugin_d4a2fd4a(app.context, inject)
   }
 
   if (typeof nuxt_plugin_dashboardplugin_111ada96 === 'function') {
