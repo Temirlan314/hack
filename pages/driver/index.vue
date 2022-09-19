@@ -85,7 +85,7 @@ export default {
       console.log(error);
     }
 
-    if (response && response.data && !response.data.length) {
+    if (response && response.data && response.data.length) {
       this.tableData = response.data;
     }
   },
@@ -192,7 +192,7 @@ export default {
                 >
                   <a
                     class="nav-link"
-                    :class="{ active: selectedId == item.taskId }"
+                    :class="{ active: selectedIndex == index }"
                     aria-current="page"
                     href="#"
                   >
