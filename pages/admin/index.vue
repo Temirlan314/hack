@@ -12,21 +12,6 @@ export default {
     Modal,
     Status,
   },
-  async mounted(){
-    await this.$store.dispatch("manager/get_routes", 1)
-    // fetch(`http://localhost:8081/manager/user/1`, {
-    //   method: 'get'
-    // }).then((data) => console.log(data));
-    const response = await this.$axios.get(`http://localhost:8081/manager/user/1`)
-    console.log(response.data)
-    this.list = response.data.concat(this.list)
-if(response.data.length) {
-  const data = await this.$axios.get(`http://localhost:8081/manager/route/${response.data[0].routeId}`)
-  this.tableData = data.data;}
-
-  },
-
-
   head() {
     return {
       title: `${this.title}`,
@@ -35,6 +20,8 @@ if(response.data.length) {
   data() {
     return {
       title: "Admin page",
+      url: "http://localhost:8081",
+      controlPanelState: 0,
       fields: [
         {
           key: "identityNo",
@@ -49,6 +36,14 @@ if(response.data.length) {
           label: "Статус",
         },
       ],
+      routeDetails: {
+        driverName: "",
+        departureName: "",
+        destinationName: "",
+        departureTime: "2022-09-19T07:35:07.014Z",
+        destinationTime: "2022-09-19T07:35:07.014Z",
+        stopsCount: 0,
+      },
       tableData: [
         {
           name: "Прибытие на станцию",
@@ -122,42 +117,168 @@ if(response.data.length) {
     },
   },
 
+  async mounted() {
+    let response;
+    try {
+      response = await this.$axios.get(`${this.url}/manager/user/1`);
+    } catch (error) {
+      console.log(error);
+    }
+    if (response && response.data && response.data.length) {
+      // this.list = response.data.concat(this.list);
+      console.log(response.data);
+      this.list = response.data;
+      let data;
+      try {
+        data = await this.$axios.get(
+          `${this.url}/manager/route/${response.data[0].routeId}`
+        );
+      } catch (error) {
+        console.log(error);
+      }
+      if (data && data.data && data.data.length) {
+        this.tableData = data.data;
+      }
+    }
+  },
+
   methods: {
     formatDate(data) {
       if (data) {
         return formatDate(data);
       }
     },
-    async getDetail(id, index){
-      const response = await this.$axios.get(`http://localhost:8081/manager/route/${id}`)
-      this.selectedIndex = index
-      console.log(response.data, "DTEIAL")
-      if(!response.data.length){
+    async getRoute(id) {
+      try {
+        const response = await this.$axios.get(
+          `${this.url}/manager/route/${id}`
+        );
+        return response;
+      } catch (error) {
+        console.log(error);
+        return null;
+      }
+    },
+    async getRouteDetail(id) {
+      try {
+        const response = await this.$axios.get(
+          `${this.url}/manager/route-details/${id}`
+        );
+        return response;
+      } catch (error) {
+        console.log(error);
+        return null;
+      }
+    },
+    async getStationData(id) {
+      try {
+        const response = await this.$axios.get(
+          `${this.url}/manager/station-data/${id}`
+        );
+        return response;
+      } catch (error) {
+        console.log(error);
+        return null;
+      }
+    },
+    async getLocoSubmission(id) {
+      try {
+        const response = await this.$axios.get(
+          `${this.url}/manager/loco-submission/${id}`
+        );
+        return response;
+      } catch (error) {
+        console.log(error);
+        return null;
+      }
+    },
+    async getLocoAcceptance(id) {
+      try {
+        const response = await this.$axios.get(
+          `${this.url}/manager/loco-acceptance/${id}`
+        );
+        return response;
+      } catch (error) {
+        console.log(error);
+        return null;
+      }
+    },
+    async getRouteSubtask(id) {
+      try {
+        const response = await this.$axios.get(
+          `${this.url}/manager/route-subtask/${id}`
+        );
+        return response;
+      } catch (error) {
+        console.log(error);
+        return null;
+      }
+    },
+    getDetail(id, index) {
+      const routes = this.getRoute(id);
+      const routeDetails = this.getRouteDetail(id);
+
+      this.selectedIndex = index;
+
+      if (routeDetails && routeDetails.data) {
+        this.routeDetails = routeDetails.data;
+      }
+      if (routes && routes.data && routes.data.length) {
+        console.log(routes.data, "Detail");
+        this.tableData = routes.data;
+      } else {
         this.tableData = [
           {
             name: "Прибытие на станцию",
-            taskId: 1,
+            taskId: 10520234,
             time: new Date(),
             status: "success",
             taskCategory: "aaaa",
           },
           {
-            name: "Прибытие на станцию",
-            taskId: 1,
+            name: "Выезд из станции",
+            taskId: 10520234,
+            time: new Date(),
+            status: "success",
+            taskCategory: "aaaa",
+          },
+          {
+            name: "Прибытие в депо 1",
+            taskId: 10520234,
+            time: new Date(),
+            status: "success",
+            taskCategory: "aaaa",
+          },
+          {
+            name: "Прибытие в депо 2",
+            taskId: 10520234,
             time: new Date(),
             status: "pending",
             taskCategory: "aaaa",
           },
           {
-            name: "Прибытие на станцию",
-            taskId: 1,
+            name: "Прибытие на станцию назначения",
+            taskId: 10520234,
             time: new Date(),
             status: "future",
             taskCategory: "aaaa",
           },
-        ]
-      } else{
-      this.tableData = response.data;}
+          {
+            name: "Сдача локомотива",
+            taskId: 10520234,
+            time: new Date(),
+            status: "future",
+            taskCategory: "aaaa",
+          },
+          {
+            name: "Завершение работы",
+            taskId: 10520234,
+            time: new Date(),
+            status: "future",
+            taskCategory: "aaaa",
+          },
+        ];
+      }
     },
   },
 };
@@ -167,13 +288,13 @@ if(response.data.length) {
   <div class="row mr-1">
     <div class="col-4 px-2">
       <div class="card p-3">
-        <div class="card-body ">
+        <div class="card-body">
           <div class="row">
             <div class="mt-4 ml-3">
               <div class="media">
                 <div
-                  class="card custom-card grey-card  p-1"
-                  style="background-color: #D9D9D9;"
+                  class="card custom-card grey-card p-1"
+                  style="background-color: #d9d9d9"
                 >
                   <div
                     class="card-body d-flex justify-content-center align-self-center"
@@ -187,8 +308,13 @@ if(response.data.length) {
                 </div>
               </div>
             </div>
-            <div class="col-12">
-              <p>Список маршрутов</p>
+            <div class="col-12 row">
+              <div class="col-7">
+                <p class="h3 mb-2">Список маршрутов</p>
+              </div>
+              <div class="col-5 px-0">
+                <div class="btn btn-info px-3">Добавить маршрут</div>
+              </div>
             </div>
             <div class="col-12">
               <ul class="nav nav-pills flex-column">
@@ -210,8 +336,8 @@ if(response.data.length) {
                     >
                       {{
                         route.departureStation +
-                          " - " +
-                          route.destinationStation
+                        " - " +
+                        route.destinationStation
                       }}
                     </p>
                     <p
@@ -236,17 +362,30 @@ if(response.data.length) {
         </div>
         <div class="col-4 px-2">
           <div
-            class="card custom-card active"
-            style="background-color: #368BFF; color: #ffffff;"
+            class="card custom-card"
+            :style="
+              controlPanelState == 0
+                ? 'background-color: #368bff; color: #ffffff'
+                : ''
+            "
+            @click="controlPanelState = 0"
           >
             <div class="card-body m-2">
               <i class="tim-icons icon-bullet-list-67"></i>
-              <p style="color: #ffffff;">Список задач</p>
+              <p style="">Список задач</p>
             </div>
           </div>
         </div>
         <div class="col-4 px-2">
-          <div class="card custom-card">
+          <div
+            class="card custom-card"
+            :style="
+              controlPanelState == 1
+                ? 'background-color: #368bff; color: #ffffff'
+                : ''
+            "
+            @click="controlPanelState = 1"
+          >
             <div class="card-body m-2">
               <i class="tim-icons icon-map-big"></i>
               <p>Местоположение</p>
@@ -254,7 +393,15 @@ if(response.data.length) {
           </div>
         </div>
         <div class="col-4 px-2">
-          <div class="card custom-card">
+          <div
+            class="card custom-card"
+            :style="
+              controlPanelState == 2
+                ? 'background-color: #368bff; color: #ffffff'
+                : ''
+            "
+            @click="controlPanelState = 2"
+          >
             <div class="card-body m-2">
               <i class="tim-icons icon-notes"></i>
               <p>О маршруте</p>
@@ -262,7 +409,7 @@ if(response.data.length) {
           </div>
         </div>
         <div class="col-12 px-2">
-          <div class="card p-4">
+          <div class="card p-4" v-if="controlPanelState == 0">
             <div class="row">
               <div class="col-8">
                 <p>Список задач</p>
@@ -270,8 +417,8 @@ if(response.data.length) {
                   Маршрут:
                   {{
                     list[selectedIndex].departureStation +
-                      " - " +
-                      list[selectedIndex].destinationStation
+                    " - " +
+                    list[selectedIndex].destinationStation
                   }}
                 </p>
               </div>
@@ -280,8 +427,8 @@ if(response.data.length) {
                 <p>20:42:21</p>
               </div>
               <!-- <div class="col-12">
-                <hr />
-              </div> -->
+                  <hr />
+                </div> -->
               <div class="col-12">
                 <hr />
                 <div class="row">
@@ -304,7 +451,7 @@ if(response.data.length) {
                 >
                   <div class="col-4 text-center">
                     <p>{{ item.name }}</p>
-                    <p>{{ item.taskId }}</p>
+                    <p>ID: {{ item.taskId }}</p>
                   </div>
                   <div class="col-4 text-center">
                     <p>{{ item.time }}</p>
@@ -312,8 +459,41 @@ if(response.data.length) {
                   <div class="col-4 text-center">
                     <p><Status :status="item.status" /></p>
                   </div>
+                  <div class="col-12"><hr /></div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="card p-4" v-if="controlPanelState == 1"></div>
+          <div class="card p-4" v-if="controlPanelState == 2">
+            <div class="card-body">
+              <p class="h3">Информация о маршруте</p>
+              <p class="">
+                Маршрут:
+                {{
+                  routeDetails.departureName +
+                  " - " +
+                  routeDetails.destinationName
+                }}
+              </p>
+              <hr />
+              <p>Машинист: {{ routeDetails.driverName }}</p>
+              <hr />
+              <p>Пункт отправления: {{ routeDetails.departureName }}</p>
+              <hr />
+              <p>Пункт прибытия: {{ routeDetails.destinationName }}</p>
+              <hr />
+              <p>Время отправления: {{ routeDetails.departureTime }}</p>
+              <hr />
+              <p>
+                Ожидаемое время прибытия: {{ routeDetails.destinationTime }}
+              </p>
+              <hr />
+              <p>Колличество остановок: {{ routeDetails.stopsCount }}</p>
+              <hr />
+              <p>Данные о поезде</p>
+              <p>Масса:</p>
+              <p>Расход топливо:</p>
             </div>
           </div>
         </div>
@@ -337,7 +517,6 @@ if(response.data.length) {
             format="MM/dd/yyyy"
             v-model="selectedTask.date"
             :disabled="true"
-
           />
         </div>
         <div class="col-8 pl-4">
@@ -353,7 +532,7 @@ if(response.data.length) {
           <p>Проход медосведетельства *</p>
         </div>
         <div class="col-12 mb-2">
-          <input  type="checkbox" v-model="selectedTask.done" disabled/>
+          <input type="checkbox" v-model="selectedTask.done" disabled />
         </div>
         <div class="col-12 mb-2">
           <p>Прием локомотива *</p>
@@ -375,7 +554,6 @@ if(response.data.length) {
             placeholder="19:53"
             v-model="selectedTask.hour"
             disabled
-            
           >
           </base-input>
         </div>
@@ -408,7 +586,7 @@ if(response.data.length) {
               class="form-control"
               rows="3"
               placeholder="Локомотив исправен, все детали на месте, датчики показывают правильные 
-данные. Есть маленькая неполадка в грузовом отсеке, но не критичная."
+  данные. Есть маленькая неполадка в грузовом отсеке, но не критичная."
               v-model="selectedTask.comments"
               disabled
             >
@@ -422,13 +600,4 @@ if(response.data.length) {
   </div>
 </template>
 
-<style>
-.input {
-}
-.vdp-datepicker * {
-  /* border-radius: 0.4285rem !important; */
-  /* border: 1px solid #cad1d7; */
-  /* box-shadow: none; */
-  /* border-color: rgba(29, 37, 59, 0.5); */
-}
-</style>
+<style></style>

@@ -13,7 +13,7 @@ export default {
   },
   data() {
     return {
-      title: "Admin page",
+      title: "Reviewer page",
       fields: [
         {
           key: "identityNo",
