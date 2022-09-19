@@ -19,7 +19,11 @@ export default {
     // }).then((data) => console.log(data));
     const response = await this.$axios.get(`http://localhost:8081/manager/user/1`)
     console.log(response.data)
-    this.list = response.data
+    this.list = response.data.concat(this.list)
+if(response.data.length) {
+  const data = await this.$axios.get(`http://localhost:8081/manager/route/${response.data[0].routeId}`)
+  this.tableData = data.data;}
+
   },
 
 
@@ -80,21 +84,21 @@ export default {
       showModal: false,
       list: [
         {
-          routeId: 1,
+          routeId: 9,
           departureStation: "Астана",
           destinationStation: "Алматы",
           departureTime: new Date("06/30/2019").getTime(),
           driverName: "Даниял Серик",
         },
         {
-          routeId: 2,
+          routeId: 10,
           departureStation: "Астана",
           destinationStation: "Шымкент",
           departureTime: new Date("06/30/2019").getTime(),
           driverName: "Даниял Серик",
         },
         {
-          routeId: 3,
+          routeId: 311,
           departureStation: "Астана",
           destinationStation: "Актау",
           departureTime: new Date("06/30/2019").getTime(),
@@ -117,14 +121,43 @@ export default {
       return date.getHours();
     },
   },
+
   methods: {
     formatDate(data) {
       if (data) {
         return formatDate(data);
       }
     },
-    async getDetail(id){
-
+    async getDetail(id, index){
+      const response = await this.$axios.get(`http://localhost:8081/manager/route/${id}`)
+      this.selectedIndex = index
+      console.log(response.data, "DTEIAL")
+      if(!response.data.length){
+        this.tableData = [
+          {
+            name: "Прибытие на станцию",
+            taskId: 1,
+            time: new Date(),
+            status: "success",
+            taskCategory: "aaaa",
+          },
+          {
+            name: "Прибытие на станцию",
+            taskId: 1,
+            time: new Date(),
+            status: "pending",
+            taskCategory: "aaaa",
+          },
+          {
+            name: "Прибытие на станцию",
+            taskId: 1,
+            time: new Date(),
+            status: "future",
+            taskCategory: "aaaa",
+          },
+        ]
+      } else{
+      this.tableData = response.data;}
     },
   },
 };
@@ -162,7 +195,7 @@ export default {
                 <li
                   class="nav-item my-2"
                   v-for="(route, index) in list"
-                  @click="selectedIndex = index"
+                  @click="getDetail(route.routeId, index)"
                 >
                   <a
                     class="nav-link"
